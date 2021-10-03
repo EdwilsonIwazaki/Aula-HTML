@@ -1,0 +1,140 @@
+*{ 
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    flex-direction: column; 
+}
+
+#header-top {
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+}
+
+
+h1{
+    width: 200px;
+    height: 40px;
+    margin: 0 100px;
+    padding: 10px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+nav#menu {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    margin: -38px 80%;
+}
+
+nav#menu > .item_menu {
+    text-decoration: none;
+    color:#fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+}
+
+nav#menu > .item_menu:hover {
+   text-decoration: none;
+   color:#000;
+   font-family: Helvetica, sans-serif;
+   font-size: 15px;
+   background-color: red;
+}
+
+.botao{
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+
+    border: 1px solid white;
+    background-color: #f9a825;
+    border-radius: 15px;
+    cursor: pointer; /*altera o icone do cursor */
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+    position: absolute;
+    bottom: 0;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+
+}
+.flex {
+    display: flex;
+}
+
+#TextoRodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ajusteTamanho {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CaixaP{
+    width: 700px;
+    height: 200px;
+    margin: 30vh auto;
+    display: flex;
+    align-items: center;
+}
+
+#esq{
+    width: 350px;
+    height: 150px;
+    border-right: 2px dotted #212121;
+    display: flex;
+    align-items: center;
+    
+}
+
+#dir{
+    width: 350px;
+    height: 30px;
+    margin: 5px;
+}
+
+.txt {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.enviar{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 120px;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DESAFIO 2</title>
+</head>
+<body class="flex">
+
+    <header id="header-top" class="flex centro-xy">
+        <h1 class="titulo flex centro-xy">ME ACHA!</h1>
+        <h2 class="subtitulo flex centro-xy">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div class="bola flex centro-xy">
+            <span class="material-icons icone">
+                travel_explore
+                </span>
+        </div>
+    </header>
+
+    <section class="flex centro-x">
+        <form action="post" name="procura_cep" class="flex centro-x formularioSetup">
+            <fieldset class="flex formularioSetup">
+                <label for="cep" class="labelsetup">Cep</label>
+                <input type="text" class="txt" id="cep" name="cep" value="" >
+                        
+                <label for="rua" class="labelsetup">Rua</label>
+                <input type="text" class="txt" id="rua" name="rua" value="" >
+
+                <label for="bairro" class="labelsetup">Bairro</label>
+                <input type="text" class="txt" id="bairro" name="bairro" value="" >
+
+                <label for="cidade" class="labelsetup">Cidade</label>
+                <input type="text" class="txt" id="cidade" name="cidade" value="" >
+
+                <label for="estado" class="labelsetup">Estado</label>
+                <input type="text" class="txt" id="estado" name="estado" value="" >
+            </fieldset>
+            <input type="submit" name="buscar" value="BUSCAR" class=" flex formabotao centro-xy" >
+        </form>
+    </section>
+
+    <footer></footer>
+
+</body>
+</html>
