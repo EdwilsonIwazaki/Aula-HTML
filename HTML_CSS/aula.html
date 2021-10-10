@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+  .flex {
+      display: flex;
+  }  
+
+  main {
+      width: 550px;
+      height: 550px;
+      background-color: darkgray;
+      padding: 15px;
+      margin: 30px auto;
+      justify-content: center;
+      align-items: center;
+
+  }
+  main > div {
+      width: 80px;
+      height: 80px;
+      background-color: darkred;
+      padding: 8px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+
+  main > div > .bola {
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      background-color: forestgreen;
+      position: absolute;
+      bottom: -10px;
+  }
+
+  #listas {
+      background-color: blue;  
+      list-style: none;
+      width: 100%;
+      height: 50px;
+      justify-content: center;
+
+  }
+
+  #listas > li {
+      padding: 8px;
+      margin: 5px;
+      background-color: red;
+  }
+</style>
+<body>
+
+    <main class="flex">
+     <div class="flex">
+            <div class="bola"></div>
+        </div>
+ <!--
+     <ul id="listas" class="flex">
+         <li>Teste 1</li>
+         <li>Teste 2</li>
+         <li>Teste 3</li>
+     </ul>
+-->
+    </main>
+    
+</body>
+</html>

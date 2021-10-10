@@ -1,0 +1,134 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.flex{
+    display: flex;
+}
+
+body {
+     
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;               
+
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+
+}
+
+#logo{
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin: 0 100px;
+}
+
+#rodape{
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.centro{
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    justify-content: space-between;
+}
+
+.item_menu {
+    text-decoration: none;
+    color:#fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0 30px 0 30px;
+}
+
+.item_menu:hover {
+   color:#000;
+   background-color: red;
+
+}
+
+.botao{
+    width: 50px;
+    border: 1px solid white;
+    background-color: #f9a825;
+    border-radius: 15px;
+    cursor: pointer; /*altera o icone do cursor */
+}
+
+.botao:hover{
+    background-color: red;
+}
+
+.ajusteTamanho {
+    height: auto;
+}
+
+#CaixaP{
+    width: 700px;
+    height: auto;
+    margin: 30vh auto;
+}
+
+#esq{
+    width: 350px;
+    height: auto;
+    border-right: 2px dotted #212121;
+    margin: 15px;
+
+}
+
+#dir{
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.mail {
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.botaoEnviar{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #f9a825;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.botaoEnviar:hover{
+    background-color: red;
+}
