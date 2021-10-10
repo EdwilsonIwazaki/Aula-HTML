@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+
+<script>
+
+//1. Crie um algoritimo que ao carregar a página seja solicitado o nome do usuário. 
+//Em seguida a sua idade.
+
+//O programa deverá "imprimir" na página o nome do uduário, sua idade e informando se ele possui idade
+// igual, maios ou menor de 18 anos.
+
+
+let nomeUsu = prompt("Digite seu nome: ");
+let idade = prompt("Digite sua idade: ");
+
+document.write("Nome do usuário: ",nomeUsu + "<br>");
+
+    if (idade > 18){
+        document.write ("Idade do usuário: " + idade + " é maior que 18");
+    }
+    else{
+        if (idade==18){
+            document.write ("Idade do usuário:" + idade + " é igual a 18");
+        }
+        else{
+            document.write ("Idade do usuário:" + idade + " é menor que 18");
+        }
+    }
+
+
+
+
+</script>
+<body>
+    
+</body>
+</html>

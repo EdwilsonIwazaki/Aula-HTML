@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 15</title>
+</head>
+
+<script>
+
+// Crie um programa, por meio de uma função, que receberá um objeto como parametro.
+//Esta função deverá ter como saida o nome das propriedades e seus respectivos valores.
+// O objeto ira conter uma relação de frutas e seus preços.
+
+
+let frutas = [
+    {fruta: "Uva", preco: 8.20},
+    {fruta: "Maçã", preco: 6.40},
+]
+
+
+function listaFrutas(f){
+ let total=0;
+    for( let lista of f){
+        for( let p  in lista){
+            console.log(` ${p} -> ${lista[p]}` );
+            if(lista[p] == lista.preco){
+                total+= lista.preco;
+            }
+        }
+    }    
+  console.log("Total : ",total)
+}
+
+listaFrutas( frutas );
+
+</script>
+
+<body>
+    
+</body>
+</html>

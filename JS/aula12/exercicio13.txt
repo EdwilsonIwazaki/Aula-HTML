@@ -1,0 +1,18 @@
+ 1. O que o manipulador ou função replace( 'C','q' ) efetua em uma string? 
+
+ R: Essa encontra um caracter especificado e o substitui por outra
+
+
+ 2. O que o manipulador ou função sort() efetua em um array? 
+
+ R: Ele efetua a ordenação.
+
+
+ 3. É correto dizer que o JS é uma linguagem orientada a objetos? 
+
+ R: Não, mas ele implenta objetos.
+
+
+ 4. Como podemos definir o operador new? 
+
+ R: É uma palavra reservada que ira criar um novo objeto.
