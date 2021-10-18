@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="scriptJSD2.js" ></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styleJSD02.css">
+    <title>Desafio 02</title>
+</head>
+
+
+<body class="flex">
+
+    <header id="header-top" class="flex centro-xy">
+        <h1 class="titulo flex centro-xy">ME ACHA!</h1>
+        <h2 class="subtitulo flex centro-xy">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div class="bola flex centro-xy">
+            <span class="material-icons icone">travel_explore</span>
+        </div>
+    </header>
+
+    <section class="flex centro-x">
+        <form action="post" name="procura_cep" class="flex centro-x formularioSetup">
+            <fieldset class="flex formularioSetup">
+
+
+                <label for="cep" class="labelsetup">Cep</label>
+                <input type="text" id="NumeroCep" name="" placeholder="Digite um CEP válido" class="txt">
+
+                <label for="rua" class="labelsetup">Rua</label>
+                <input type="text" id="logradouro" name="" value="" class="txt" disabled>
+
+                <label for="bairro" class="labelsetup">Bairro</label>
+                <input type="text" id="bairro" name="" value="" class="txt" disabled>
+
+                <label for="cidade" class="labelsetup">Cidade</label>
+                <input type="text" id="localidade" name="" value="" class="txt" disabled>
+
+                <label for="estado" class="labelsetup">Estado</label>
+                <input type="text" id="uf" name="" value="" class="txt" disabled>
+
+            </fieldset>
+            <input type="button" name="buscar" id="buscarCep" value="BUSCAR" class=" flex formabotao centro-xy"> 
+        </form>
+    </section>
+
+    <footer></footer>
+
+</body>
+</html>
