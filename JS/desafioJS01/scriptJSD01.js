@@ -67,10 +67,9 @@ window.onload = function(){
     }
  }
 
-
-
-
  calcular('cestaDoCliente','mostraTotalCompra');
+
+// Desafio incompleto
 
 
 }
